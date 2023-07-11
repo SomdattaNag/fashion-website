@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOOM</title>
+</head>
+<style>
+         
+    /* styling navlist */
+    #navlist {
+        background-color: sienna;
+        position: absolute;
+        width: 1610PX;
+    }
+     
+    /* styling navlist anchor element */
+    #navlist a {
+        float:left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .navlist-right{
+        float:right;
+    }
+
+    /* hover effect of navlist anchor element */
+    #navlist a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+     
+    /* styling search bar */
+    .search input[type=text]{
+        width:300px;
+        height:25px;
+        border-radius:25px;
+        border: none;
+
+    }
+     
+    .search{
+        float:right;
+        margin:7px;
+
+    }
+     
+    .search button{
+        background-color: sienna;
+        color: #f2f2f2;
+        float: right;
+        padding: 5px 10px;
+        margin-right: 16px;
+        font-size: 12px;
+        border: none;
+        cursor: pointer;
+    }
+    .logo .btn {
+        position: absolute;
+        top: 122%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: black;
+        color:white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        height: 10%;
+        width: 15%;
+        
+    }
+    .logo .btn:hover{
+        background-color: rgb(224, 121, 73);
+    }
+    .footer{
+        height:400px;
+        width:1610px;
+        display: flex;
+        font-size: large;
+    }
+    .cl1{
+        text-align: center;
+        padding-left: 20%;
+    }
+    .cl2{
+        text-align: center;
+        padding-left: 5%;
+    }
+    .cl3{
+        text-align: center;
+        padding-left: 5%;
+    }
+    .cl4{
+        text-align: center;
+        padding-left: 6%;
+    }
+     .sum {
+        position: absolute;
+        top: 260%;
+        left: 19%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        color:white;
+        font-size: 70px;
+        padding: 12px 24px;
+        height: 5px;
+        padding-left: 10%;
+    }
+    .dress:hover{
+        cursor: pointer;
+      
+        
+    }
+    .sum:hover{
+        cursor: pointer;
+       font-size: 75px;
+    }
+     .slide{display:none;}
+    
+    
+    .win {
+        position: absolute;
+        top: 260%;
+        left: 54%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        color:white;
+        font-size: 75px;
+        padding: 12px 24px;
+        height: 5px;
+    }
+    .dress2:hover{
+        cursor: pointer;
+       
+       
+    }
+    .win:hover{
+        cursor: pointer;
+        font-size: 80px;
+    }
+    .slide2{display:none;}
+    .shoe {
+        position: absolute;
+        top: 260%;
+        left: 83%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        color:white;
+        font-size: 75px;
+        padding: 12px 24px;
+        height: 5px;
+    }
+    .dress3:hover{
+        cursor: pointer;
+       
+       
+    }
+    .shoe:hover{
+        cursor: pointer;
+        font-size: 80px;
+    }
+    .slide3{display:none;}
+    
+</style>
+</head>
+
+<body>
+<!-- Navbar items -->
+<div id="navlist">
+    <a href="file:///C:/Users/chand/OneDrive/Desktop/clothing-store-website/new.html" target="_blank">NEW</a>
+    <a href="file:///C:/Users/chand/OneDrive/Desktop/clothing-store-website/men.html" target="_blank">MEN</a>
+    <a href= "file:///C:/Users/chand/OneDrive/Desktop/clothing-store-website/WOMEN.HTML" target="_blank">WOMEN</a>
+    <a href= "file:///C:/Users/chand/OneDrive/Desktop/clothing-store-website/SHOES.HTML" target="_blank">SHOES</a>
+     <a href= "file:///C:/Users/chand/OneDrive/Desktop/clothing-store-website/login.html" target="_blank">LOGIN</a>
+    
+    <!-- search bar right align -->
+    <div class="search" style="display: flex;">
+         
+        <form action="#">
+            <input type="text"
+                placeholder=" Search "
+                name="search">
+            <button>
+                <i class="fa fa-search"
+                    style="font-size: 18px;">
+                </i>
+            </button>
+        </form>
+        </div>
+        </div>
+ 
+     
+    <div class="indian" style="display: flex; padding-bottom:3px">
+        <img src="https://e4p7c9i3.stackpathcdn.com/wp-content/uploads/2019/08/0-14.jpg?iv=504" alt="indian" height="600px" width="400px"><img src="https://i.pinimg.com/originals/cd/08/0c/cd080c28a46891aac377840f5b12e5b1.jpg" alt="" height="600px" width="400px"><img src="https://i.pinimg.com/736x/07/4a/e2/074ae26a3042e43a09ce3af66c2d671e.jpg" alt="" height="600px" width="410px"><img src="https://dy9ihb9itgy3g.cloudfront.net/products/9257/alba/alba__.740.webp" alt="" height="600px" width="411px"></div>
+        <div class="logo"><img src="https://i.ibb.co/9hXm0XK/bloom.png" alt="" height="300px" width="1611px" style="padding-left: -1%;"><button onclick="window.location.href='file:///C:/Users/chand/OneDrive/Desktop/clothing-store-website/shopnow.html'"  target="_blank" class="btn">SHOP NOW</button></div>
+    <div class="western" style="display: flex;">
+        <img src="https://media1.popsugar-assets.com/files/thumbor/1h41KstQQqViE3N8-k0h7vsM6fg/fit-in/728xorig/filters:format_auto-!!-:strip_icc-!!-/2022/06/07/928/n/1922564/d10157dc629fc05885d0f6.26249492_/i/soft-girl-aesthetic-outfits.jpg" alt="" height="600px" width="400px"><img src="https://femina.wwmindia.com/content/2022/jul/birthday-dresses-21658999617.jpg" alt="" height="600px" width="400px"><img src="https://i.pinimg.com/originals/1b/41/a8/1b41a87ad483886d723b57b6a15e9693.jpg" alt="" height="600px" width="410px"><img src="https://i.pinimg.com/originals/1f/93/31/1f9331b72c47ea1135385fc3266d4c16.jpg" alt="" height="600px" width="400px">
+    </div>
+    <div class="collection" style="color:rgb(43, 20, 3);">
+    <p style="font-size:xx-large; font-family:'Times New Roman', Times, serif; text-align:center"><strong>LATEST COLLECTIONS</strong></p>
+    <hr style="height:2.5px;border-width:0;color:black;background-color:black;padding-left:20%; width:91.1%">
+    <br>
+      <div style="display: flex;">
+     <div class="dress" style="width: 5px; padding-left:9%">
+        <img src="https://images.unsplash.com/photo-1598201973744-a999fc332b8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN1bW1lciUyMGRyZXNzfGVufDB8fDB8fHww&w=1000&q=80" class="slide" alt="WESTERN" title="WESTERN" style="height: 600px; width:400px; ">
+        <img src="https://i.pinimg.com/736x/77/18/1a/77181aa15d6477cc87db78868b3892fc.jpg" class="slide" alt="WESTERN"title="WESTERN" style="height: 600px; width:400px; ">
+        
+        
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("slide");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
+
+        <div class="sum" style="display: flex;"><p><a href="file:///C:/Users/chand/OneDrive/Desktop/clothing-store-website/western.html" target="_blank" style="color: white;"> WESTERN </a></p>
+            <div  style="padding-top: 75px ;"><img src="https://i.ibb.co/rkdKzWC/ddd1c2476bcb099d675bf282f0a40192-removebg-preview.png" alt="arrow1" style="height: 90px; width:70px ;"></div>
+     </div>
+     <div class="dress2" style="width: 5px; padding-left:30%;" >
+        <img src="https://i.pinimg.com/736x/63/f9/f1/63f9f1a724eadb725d2270505476b084.jpg" class="slide2" alt="ETHNIC" title="ETHNIC" style="height: 600px; width:400px;">
+        <img src="https://www.theloom.in/blog/wp-content/uploads/2022/02/mav-544_2_-e1644061415770.jpg" class="slide2" alt="ETHNIC"title="ETHNIC" style="height: 600px; width:400px; ">
+       
+        </div>
+    
+    <script>
+        var myIndex = 0;
+         carrot();
+        
+        function carrot() {
+          var i;
+          var x = document.getElementsByClassName("slide2");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carrot, 2000); // Change image every 2 seconds
+        }
+        </script>
+
+        <div class="win" style="display: flex;"><p><a href="file:///C:/Users/chand/OneDrive/Desktop/clothing-store-website/ethnic.html" target="_blank" style="color: white;">ETHNIC</a></p>
+            <div  style="padding-top: 75px ;"><img src="https://i.ibb.co/rkdKzWC/ddd1c2476bcb099d675bf282f0a40192-removebg-preview.png" alt="arrow1" style="height: 90px; width:70px ;"></div>
+        </div>
+
+            <div class="dress3" style="width: 5px; padding-left:30%;" >
+                <img src="https://i.pinimg.com/originals/72/6f/80/726f80235a512fc60bdd0a3ec6c5f8c1.jpg" class="slide3" alt="SHOES" title="SHOES" style="height: 600px; width:400px;">
+                <img src="https://img.ltwebstatic.com/images3_pi/2020/01/13/1578880860e1059a9420a87139763f876e620af49e_thumbnail_750x.webp" class="slide3" alt="SHOES"title="SHOES" style="height: 600px; width:400px; ">
+                
+                </div>
+            
+                <script>
+                    var myIndex = 0;
+                    showslides();
+                    
+                    function showslides() {
+                      var i;
+                      var x = document.getElementsByClassName("slide3");
+                      for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                      }
+                      myIndex++;
+                      if (myIndex > x.length) {myIndex = 1}    
+                      x[myIndex-1].style.display = "block";  
+                      setTimeout(showslides, 2000); // Change image every 2 seconds
+                    }
+                    </script>
+            
+        
+                <div class="shoe" style="display: flex;"><p><a href="file:///C:/Users/chand/OneDrive/Desktop/clothing-store-website/shoescollection.html" target="_blank" style="color: white;">SHOES</a></p>
+                    <div  style="padding-top: 75px ;"><img src="https://i.ibb.co/rkdKzWC/ddd1c2476bcb099d675bf282f0a40192-removebg-preview.png" alt="arrow1" style="height: 90px; width:70px ;"></div>      </div>   
+     </div>
+    </div>
+     
+     <br>
+    <div class="footer" style="background-color:rgb(160,82,45) ;">
+       <div class="cl1"><p><strong>CONTACT US</strong><br>
+        <a href="">✉️bloomstore@gmail.com</a><br>
+        📞9845670811 <br>
+        📍7 Balaji Road, Bandra,<br>
+           Mumbai,India,400051
+    </p></div>
+    <div class="cl2"><p><STrong>COMPANY</STrong> <br>
+        Our Stores <br>
+        Our Story<br>
+        Our Materials<br>
+        Sustainability<br>
+        Investors<br>
+        Shoe Care<br>
+        Partnerships<br>
+        Product Testing<br>
+        Affiliates<br>
+        Bulk Orders<br>
+        Careers<br>
+        Press<br>
+        California Transparency Act<br>
+        Community Offers</p></div>
+    <div class="cl3"><p><strong>LEGAL AREA</strong> <br>
+        Terms and Conditions of Sale<br>
+        Return Policy<br>
+        Privacy Policy<br>
+        DPO<br>
+        Boutique Purchase</p><br><br></div>
+    <div class="cl4"><p><strong>FOLLOW US </strong><br> <br>
+      <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="instagram" style="height: 20px; width:20px">
+      <img src="https://cdn-icons-png.flaticon.com/512/2175/2175193.png" alt="facebook" style="height: 20px; width:20px">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png?20220821125553" alt="twitter" style="height: 20px; width:20px">
+      <img src="https://cdn-icons-png.flaticon.com/512/48/48968.png" alt="youtube" style="height: 20px; width:20px">
+      <img src="https://cdn-icons-png.flaticon.com/512/80/80648.png" alt="pinterest" style="height: 20px; width:20px">
+    </p></div>
+</div>
+</body>
+</html>
